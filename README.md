@@ -4,11 +4,7 @@ In this project you can find examples of using bootstrap 5 with angular without 
 
 # List of Components
 
-- Carousel
-
-# NgBs5
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
+- [Carousel](https://github.com/cossth/ng-bs5/tree/main/src/app/examples/carousel)
 
 ## Development server
 
