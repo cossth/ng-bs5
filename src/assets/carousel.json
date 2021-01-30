@@ -1,0 +1,17 @@
+[
+  {
+    "url": "./assets/img1.jpg",
+    "text": "Thanks unsplash for providing free to use images.",
+    "heading": "This is caption",
+    "link": "https://unsplash.com/photos/gnInONfN1CQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
+  },
+  {
+    "url": "./assets/img2.jpg",
+    "link": "https://unsplash.com/photos/MzuFhco8PgA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
+  },
+  {
+    "url": "./assets/img3.jpg",
+    "isDark": true,
+    "link": "https://unsplash.com/photos/yUz1b8qbx1k?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
+  }
+]

@@ -1,0 +1,23 @@
+<div #exampleCarousel class="carousel slide" [class.carousel-dark]="isDark">
+    <ol class="carousel-indicators">
+        <li *ngFor="let _ of carousels; let i = index" (click)="carousel?.to(i)"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item" *ngFor="let carousel of carousels; let i = index" [class.active]="0 === i">
+            <img [src]="carousel.url" class="d-block w-100" alt="Carousel">
+            <div *ngIf="carousel.heading" class="carousel-caption d-none d-md-block">
+                <h4>{{carousel.heading}}</h4>
+                <p>{{carousel.text}}</p>
+                <a [href]="carousel.link" class="btn btn-outline-light">Unsplash</a>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" role="button" (click)="carousel?.prev()">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" role="button" (click)="carousel?.next()">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
